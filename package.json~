@@ -25,7 +25,7 @@
   "dependencies": {
     "express": "latest",
     "jade": "latest",
-    "socket.io": "0.9"
+    "socket.io": "latest"
   },
   "bugs": {
     "url": "https://github.com/npm/npm/issues"
