@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+
+  div#container
+
+    // input(placeholder="Enter a username")#userName
+
+    div#chatWindow
+      input(autofocus="autofocus" placeholder="Enter a room here")#roomInput
+      div#callButtons
+        button#nextPartnerButton Next
+
+      div#chatMessagesWindow
+      input(autofocus="autofocus" placeholder="Enter a message here")#chatInput
